@@ -10,7 +10,7 @@ Hi, I'm Jolly. I build AI automations and agent systems out of the Philippines: 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/greeter-dark.svg">
-  <img alt="A cartoon of Jolly waving in a headset, talking in a pixel speech bubble: Hi, I'm Jolly. The cartoon one. I build AI agents that handle the busy work. See below." src="assets/greeter-light.svg" width="100%">
+  <img alt="Pixel art of Jolly talking in a pixel speech bubble, with the Claude mascot floating beside him: Hi, I'm Jolly. GoHighLevel and AI Automation Workflow Builder. Feel free to browse." src="assets/greeter-light.svg" width="100%">
 </picture>
 <br>
 
