@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="A cartoon of Jolly waving in a headset, talking in a pixel speech bubble: HI, I'M JOLLY. THE CARTOON ONE. I BUILD AI AGENTS THAT HANDLE THE BUSY WORK. SEE BELOW.">
+<title>Hi from Jolly</title>
+<defs>
+<clipPath id="c0"><rect x="340" y="60" width="0" height="38"><animate attributeName="width" dur="10s" repeatCount="indefinite" calcMode="discrete" values="0;16.4;32.8;49.2;65.6;82;98.4;114.8;131.2;147.6;164;180.4;196.8;213.2;229.6;246;262.4;278.8;295.2;311.6;328;344.4;360.8;377.2;393.6;410;426.4;442.8;459.2;475.6;492;508.4;0" keyTimes="0;0.0655;0.071;0.0765;0.082;0.0875;0.093;0.0985;0.104;0.1095;0.115;0.1205;0.126;0.1315;0.137;0.1425;0.148;0.1535;0.159;0.1645;0.17;0.1755;0.181;0.1865;0.192;0.1975;0.203;0.2085;0.214;0.2195;0.225;0.2305;0.96"/></rect></clipPath>
+<clipPath id="c1"><rect x="340" y="110" width="0" height="38"><animate attributeName="width" dur="10s" repeatCount="indefinite" calcMode="discrete" values="0;16.4;32.8;49.2;65.6;82;98.4;114.8;131.2;147.6;164;180.4;196.8;213.2;229.6;246;262.4;278.8;295.2;311.6;328;344.4;360.8;377.2;393.6;410;426.4;442.8;459.2;475.6;0" keyTimes="0;0.271;0.2765;0.282;0.2875;0.293;0.2985;0.304;0.3095;0.315;0.3205;0.326;0.3315;0.337;0.3425;0.348;0.3535;0.359;0.3645;0.37;0.3755;0.381;0.3865;0.392;0.3975;0.403;0.4085;0.414;0.4195;0.425;0.96"/></rect></clipPath>
+<clipPath id="c2"><rect x="340" y="160" width="0" height="38"><animate attributeName="width" dur="10s" repeatCount="indefinite" calcMode="discrete" values="0;16.4;32.8;49.2;65.6;82;98.4;114.8;131.2;147.6;164;180.4;196.8;213.2;229.6;246;262.4;278.8;295.2;311.6;328;344.4;360.8;377.2;393.6;410;0" keyTimes="0;0.4655;0.471;0.4765;0.482;0.4875;0.493;0.4985;0.504;0.5095;0.515;0.5205;0.526;0.5315;0.537;0.5425;0.548;0.5535;0.559;0.5645;0.57;0.5755;0.581;0.5865;0.592;0.5975;0.96"/></rect></clipPath>
+<style>
+.say{font-family:ui-monospace,SFMono-Regular,'Cascadia Code',Consolas,'Liberation Mono',monospace;font-size:24px;font-weight:700;letter-spacing:2px;fill:#14161C}
+.arm{transform-origin:206px 206px;animation:wave 1.4s ease-in-out infinite alternate}
+@keyframes wave{from{transform:rotate(-10deg)}to{transform:rotate(16deg)}}
+.eye{transform-box:fill-box;transform-origin:center;animation:blink 4s infinite}
+@keyframes blink{0%,94%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+.mouth{transform-box:fill-box;transform-origin:center;animation:talk 10s linear infinite}
+@keyframes talk{0%{transform:scaleY(.3)}6%{transform:scaleY(1)}7.2%{transform:scaleY(0.3)}8.4%{transform:scaleY(1)}9.6%{transform:scaleY(0.3)}10.8%{transform:scaleY(1)}12%{transform:scaleY(0.3)}13.2%{transform:scaleY(1)}14.4%{transform:scaleY(0.3)}15.6%{transform:scaleY(1)}16.8%{transform:scaleY(0.3)}18%{transform:scaleY(1)}19.2%{transform:scaleY(0.3)}20.4%{transform:scaleY(1)}21.6%{transform:scaleY(0.3)}22.8%{transform:scaleY(1)}23.05%{transform:scaleY(.3)}26.55%{transform:scaleY(1)}27.75%{transform:scaleY(0.3)}28.95%{transform:scaleY(1)}30.15%{transform:scaleY(0.3)}31.35%{transform:scaleY(1)}32.55%{transform:scaleY(0.3)}33.75%{transform:scaleY(1)}34.95%{transform:scaleY(0.3)}36.15%{transform:scaleY(1)}37.35%{transform:scaleY(0.3)}38.55%{transform:scaleY(1)}39.75%{transform:scaleY(0.3)}40.95%{transform:scaleY(1)}42.15%{transform:scaleY(0.3)}42.5%{transform:scaleY(.3)}46%{transform:scaleY(1)}47.2%{transform:scaleY(0.3)}48.4%{transform:scaleY(1)}49.6%{transform:scaleY(0.3)}50.8%{transform:scaleY(1)}52%{transform:scaleY(0.3)}53.2%{transform:scaleY(1)}54.4%{transform:scaleY(0.3)}55.6%{transform:scaleY(1)}56.8%{transform:scaleY(0.3)}58%{transform:scaleY(1)}59.2%{transform:scaleY(0.3)}59.75%{transform:scaleY(.3)}100%{transform:scaleY(.3)}}
+.bob{animation:bob 3s ease-in-out infinite}@keyframes bob{50%{transform:translateY(3px)}}
+.cur{animation:cur 1s steps(1) infinite}@keyframes cur{50%{opacity:0}}
+.curw{opacity:0;animation:curw 10s steps(1) infinite}
+@keyframes curw{0%{opacity:0}59.75%{opacity:1}96%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.arm,.eye,.mouth,.bob,.cur{animation:none}}
+</style>
+</defs>
+<rect width="1200" height="260" rx="20" fill="#FAFAF7"/>
+<rect x=".5" y=".5" width="1199" height="259" rx="20" fill="none" stroke="#E4E4DE"/>
+
+<g class="bob">
+  <!-- waving arm (behind body) -->
+  <g class="arm">
+    <path d="M206 206 L246 128" stroke="#6D5AE6" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="250" cy="120" r="14" fill="#E3A97F"/>
+  </g>
+  <!-- hoodie -->
+  <path d="M82 262 Q86 206 120 196 L180 196 Q214 206 218 262 Z" fill="#6D5AE6"/>
+  <path d="M136 196 L150 222 L164 196 Z" fill="#FAFAF7" opacity=".35"/>
+  <rect x="140" y="172" width="20" height="26" rx="6" fill="#E3A97F"/>
+  <!-- head -->
+  <circle cx="150" cy="128" r="48" fill="#E3A97F"/>
+  <path d="M100 126 Q96 74 150 72 Q206 74 200 126 Q192 98 162 96 Q156 108 132 104 Q112 108 100 126 Z" fill="#1E1A22"/>
+  <!-- headset -->
+  <path d="M100 128 Q100 66 150 66 Q200 66 200 128" fill="none" stroke="#0F9F8E" stroke-width="6"/>
+  <rect x="92" y="118" width="14" height="26" rx="6" fill="#0F9F8E"/>
+  <rect x="194" y="118" width="14" height="26" rx="6" fill="#0F9F8E"/>
+  <path d="M100 142 Q104 168 132 166" fill="none" stroke="#0F9F8E" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="134" cy="166" r="4" fill="#0F9F8E"/>
+  <!-- face -->
+  <ellipse class="eye" cx="133" cy="130" rx="5" ry="6" fill="#1E1A22"/>
+  <ellipse class="eye" cx="167" cy="130" rx="5" ry="6" fill="#1E1A22"/>
+  <circle cx="124" cy="148" r="7" fill="#F28B82" opacity=".35"/>
+  <circle cx="176" cy="148" r="7" fill="#F28B82" opacity=".35"/>
+  <ellipse class="mouth" cx="152" cy="154" rx="9" ry="7" fill="#7A2E2E"/>
+</g>
+
+<polygon points="312,30 1160,30 1160,38 1168,38 1168,222 1160,222 1160,230 312,230 312,222 304,222 304,150 294,150 294,142 284,142 284,134 274,134 274,126 304,126 304,38 312,38" fill="#FFFFFF" stroke="#14161C" stroke-width="4" shape-rendering="crispEdges"/>
+<text x="340" y="88" class="say" clip-path="url(#c0)">HI, I'M JOLLY. THE CARTOON ONE.</text>
+<text x="340" y="138" class="say" clip-path="url(#c1)">I BUILD AI AGENTS THAT HANDLE</text>
+<text x="340" y="188" class="say" clip-path="url(#c2)">THE BUSY WORK. SEE BELOW.</text>
+<rect class="curw" x="754" y="166" width="14" height="24" fill="#0F9F8E"><animate attributeName="opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/></rect>
+</svg>
